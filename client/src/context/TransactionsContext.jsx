@@ -69,10 +69,10 @@ export const TransactionProvider = ({ children }) => {
         setCurrentAccount(accounts[0]);
         getAllTransactions();
       } else {
-        alert('No accounts found');
+        console.log('No accounts found');
       }
     } catch (error) {
-      alert('No ethereum object');
+      console.log(error);
       throw new Error('No ethereum object.');
     }
   };
@@ -84,7 +84,7 @@ export const TransactionProvider = ({ children }) => {
 
       window.localStorage.setItem('transactionCount', transactionCount);
     } catch (error) {
-      alert('Error, no ethereum object ', error);
+      console.log(error);
       throw new Error('No ethereum object.');
     }
   };
