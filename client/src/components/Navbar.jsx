@@ -17,12 +17,48 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="w-32 cursor-pointer" />
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {['Market', 'Exchange', 'Tutorials', 'Wallets'].map((item, index) => (
-          <NavbarItem key={item + index} title={item} />
-        ))}
-        <li className="bg-[#2952e3] py-2 px-7 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Login
+        <li className="mx-4 cursor-pointer">
+          <a
+            href="https://yuriy-cryptoverse.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Crypto
+          </a>
         </li>
+        <li className="mx-4 cursor-pointer">
+          <a
+            href="https://www.coinbase.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Coinbase
+          </a>
+        </li>
+        <li className="mx-4 cursor-pointer">
+          <a
+            href="https://hackr.io/blog/top-cryptocurrency-blockchain-tutorials"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tutorials
+          </a>
+        </li>
+        <li className="mx-4 cursor-pointer">
+          <a
+            href="https://metamask.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Metamask
+          </a>
+        </li>
+        {/* {['Market', 'Exchange', 'Tutorials', 'Wallets'].map((item, index) => (
+          <NavbarItem key={item + index} title={item} />
+        ))} */}
+        {/* <li className="bg-[#2952e3] py-2 px-7 rounded-full cursor-pointer hover:bg-[#2546bd]">
+          Login
+        </li> */}
       </ul>
       <div className="flex relative">
         {toggleMenu ? (
@@ -45,7 +81,11 @@ const Navbar = () => {
             </li>
             {['Market', 'Exchange', 'Tutorials', 'Wallets'].map(
               (item, index) => (
-                <NavbarItem key={item + index} title={item} classProps="my-2 text-lg" />
+                <NavbarItem
+                  key={item + index}
+                  title={item}
+                  classProps="my-2 text-lg"
+                />
               )
             )}
           </ul>
