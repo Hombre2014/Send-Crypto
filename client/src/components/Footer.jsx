@@ -19,11 +19,11 @@ const Footer = () => {
           </p>
           <p className="text-white text-base text-center mx-2 cursor-pointer">
             <a
-              href="https://www.coinbase.com/"
+              href="https://ropsten.etherscan.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Coinbase
+              Ropsten
             </a>
           </p>
           <p className="text-white text-base text-center mx-2 cursor-pointer">

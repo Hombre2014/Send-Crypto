@@ -28,11 +28,11 @@ const Navbar = () => {
         </li>
         <li className="mx-4 cursor-pointer">
           <a
-            href="https://www.coinbase.com/"
+            href="https://ropsten.etherscan.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Coinbase
+            Ropsten
           </a>
         </li>
         <li className="mx-4 cursor-pointer">

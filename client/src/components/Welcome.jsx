@@ -38,7 +38,7 @@ const Welcome = (e) => {
             Send Ethereum <br /> across the world
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Connect your Metamask wallet and send Ethereum to any other account.
+            Connect your Metamask wallet and send Ethereum on Ropsten test network to any other account.
           </p>
           {!currentAccount && (
             <button
