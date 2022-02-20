@@ -9,28 +9,56 @@ const Footer = () => {
         </div>
         <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
           <p className="text-white text-base text-center mx-2 cursor-pointer">
-            Market
+            <a
+              href="https://yuriy-cryptoverse.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Crypto
+            </a>
           </p>
           <p className="text-white text-base text-center mx-2 cursor-pointer">
-            Exchange
+            <a
+              href="https://www.coinbase.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Coinbase
+            </a>
           </p>
           <p className="text-white text-base text-center mx-2 cursor-pointer">
-            Tutorials
+            <a
+              href="https://hackr.io/blog/top-cryptocurrency-blockchain-tutorials"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tutorials
+            </a>
           </p>
           <p className="text-white text-base text-center mx-2 cursor-pointer">
-            Wallet
+            <a
+              href="https://metamask.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Metamask
+            </a>
           </p>
         </div>
       </div>
       <div className="flex justify-center items-center flex-col mt-5">
-        <p className="text-white text-sm text-center">Come join us</p>
-        <p className="text-white text-sm text-center">info@krypto.com</p>
+        <p className="text-white text-sm text-center">Contact me</p>
+        <p className="text-white text-sm text-center">
+          <a href="mailto:chamkoriyski@gmial.com">chamkoriyski@gmial.com</a>
+        </p>
       </div>
       <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5" />
-      <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
-        <p className="text-white text-sm text-center">@krypto 2022</p>
+      <div className="sm:w-[90%] w-full flex justify-between items-center mt-3 pb-12">
         <p className="text-white text-sm text-center">
-          All rights reserved &reg;
+          <a href="https://github.com/Hombre2014">Hombre2014</a>
+        </p>
+        <p className="text-white text-sm text-center">
+          All rights reserved <sup>&reg;</sup>
         </p>
       </div>
     </div>
