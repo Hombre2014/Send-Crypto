@@ -80,6 +80,6 @@ body {
 }
 
 @tailwind base;
-@tailwind forms; /* use to be @tailwindcss/forms;  */
+@tailwindcss/forms;
 @tailwind components;
 @tailwind utilities;

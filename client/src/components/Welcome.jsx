@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { AiFillPlusCircle } from 'react-icons/ai';
 import { SiEthereum } from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
 import { shortenAddress } from '../utils/shortenAddress';
@@ -26,15 +25,13 @@ const Welcome = (e) => {
   const handleSubmit = () => {
     const { addressTo, amount, keyword, message } = formData;
 
-    // e.PreventDefault();
-
     if(!addressTo || !amount || !keyword || !message) return;
 
     sendTransaction();
   };
 
   return (
-    <div className="flex w-full justify-center justify-center">
+    <div className="flex w-full justify-center">
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start flex-col mf:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1 ">
